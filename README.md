@@ -12,7 +12,7 @@ point to the (absolute) directory where the other config files can be found.
 A month of KNMI BUFR files can be found in the `knmi-data` directory.
 
 Now follow the following steps to setup the system and load the data.
-* Check out master branch from https://github.com/wmo-im/wis2box
+* Check out main branch from https://github.com/wmo-im/wis2box
 
 * Put the `dev.env` file from the `e-soh-wis2box-demo` project in the wis2box main project directory.
 
@@ -44,7 +44,7 @@ exit
 python3 wis2box-ctl.py logs wis2box-management
 ```
 
-* Publish the stations again:
+* Publish the stations again (might not be needed anymore):
 ```
 python3 wis2box-ctl.py login
 wis2box metadata station publish-collection
