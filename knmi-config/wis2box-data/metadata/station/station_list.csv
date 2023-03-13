@@ -1,0 +1,68 @@
+station_name,wigos_station_identifier,traditional_station_identifier,facility_type,latitude,longitude,elevation,territory_name,wmo_region
+Platform D15-FA-1,0-20000-0-06201,06201,Land (fixed),54.32555556,2.935833333,0,Netherlands,6
+Platform P11-B,0-20000-0-06203,06203,Land (fixed),52.36,3.341666667,0,Netherlands,6
+Platform K14-FA-1C,0-20000-0-06204,06204,Land (fixed),53.26944444,3.627777778,0,Netherlands,6
+Platform A12-CPP,0-20000-0-06205,06205,Land (fixed),55.39916667,3.810277778,0,Netherlands,6
+Platform L9-FF-1,0-20000-0-06207,06207,Land (fixed),53.61444444,4.960277778,0,Netherlands,6
+Platform AWG-1,0-20000-0-06208,06208,Land (fixed),53.49166667,5.941666667,0,Netherlands,6
+IJmond,0-20000-0-06209,06209,Land (fixed),52.46361111,4.5175,0,Netherlands,6
+Platform J6-A,0-20000-0-06211,06211,Land (fixed),53.82416667,2.945277778,0,Netherlands,6
+Voorschoten,0-20000-0-06215,06215,Land (fixed),52.13972222,4.436388889,-1.15,Netherlands,6
+Hollandse_Kust_Zuid_Alfa,0-20000-0-06216,06216,Land (fixed),52.31944444,4.042222222,0,Netherlands,6
+Platform Borssele-A,0-20000-0-06317,06317,Land (fixed),51.7,3.056666667,0,Netherlands,6
+IJmuiden,0-20000-0-06225,06225,Land (fixed),52.46222222,4.555,4.4,Netherlands,6
+Texelhors,0-20000-0-06229,06229,Land (fixed),52.995,4.72,1,Netherlands,6
+De Kooy,0-20000-0-06235,06235,Land (fixed),52.92694444,4.781111111,0,Netherlands,6
+Platform F3-FB-1,0-20000-0-06239,06239,Land (fixed),54.85388889,4.696111111,0,Netherlands,6
+Amsterdam,0-20000-0-06240,06240,Land (fixed),52.31722222,4.789722222,0,Netherlands,6
+Vlieland,0-20000-0-06242,06242,Land (fixed),53.24,4.920833333,0,Netherlands,6
+Wijdenes,0-20000-0-06248,06248,Land (fixed),52.6325,5.173611111,0.08,Netherlands,6
+Berkhout,0-20000-0-06249,06249,Land (fixed),52.64277778,4.978888889,-2.4,Netherlands,6
+Terschelling Hoorn,0-20000-0-06251,06251,Land (fixed),53.39111111,5.345833333,0.073,Netherlands,6
+K13-Alpha Platform,0-20000-0-06252,06252,Land (fixed),53.21777778,3.220277778,0,Netherlands,6
+Wijk aan Zee,0-20000-0-06257,06257,Land (fixed),52.50527778,4.603055556,8.5,Netherlands,6
+Houtribdijk,0-20000-0-06258,06258,Land (fixed),52.64805556,5.400555556,7.25,Netherlands,6
+De Bilt,0-20000-0-06260,06260,Land (fixed),52.09888889,5.179722222,1.9,Netherlands,6
+Stavoren,0-20000-0-06267,06267,Land (fixed),52.89666667,5.383333333,-1.3,Netherlands,6
+Lelystad,0-20000-0-06269,06269,Land (fixed),52.44833333,5.508055556,0,Netherlands,6
+Leeuwarden,0-20000-0-06270,06270,Land (fixed),53.22305556,5.751666667,0,Netherlands,6
+Marknesse,0-20000-0-06273,06273,Land (fixed),52.70194444,5.8875,-3.35,Netherlands,6
+Deelen,0-20000-0-06275,06275,Land (fixed),52.05472222,5.872222222,0,Netherlands,6
+Lauwersoog,0-20000-0-06277,06277,Land (fixed),53.41166667,6.199166667,2.9,Netherlands,6
+Heino,0-20000-0-06278,06278,Land (fixed),52.43444444,6.258888889,3.6,Netherlands,6
+Hoogeveen,0-20000-0-06279,06279,Land (fixed),52.74888889,6.573055556,15.82,Netherlands,6
+Groningen,0-20000-0-06280,06280,Land (fixed),53.12361111,6.584722222,0,Netherlands,6
+Hupsel,0-20000-0-06283,06283,Land (fixed),52.06777778,6.656666667,29.07,Netherlands,6
+Huibertgat,0-20000-0-06285,06285,Land (fixed),53.57388889,6.398333333,0,Netherlands,6
+Nieuw Beerta,0-20000-0-06286,06286,Land (fixed),53.19444444,7.149166667,-0.02,Netherlands,6
+Twenthe,0-20000-0-06290,06290,Land (fixed),52.27305556,6.890833333,0,Netherlands,6
+Cadzand,0-20000-0-06308,06308,Land (fixed),51.38,3.379166667,0,Netherlands,6
+Vlissingen,0-20000-0-06310,06310,Land (fixed),51.44138889,3.595833333,8.03,Netherlands,6
+Vlakte van de Raan,0-20000-0-06313,06313,Land (fixed),51.50361111,3.241944444,0,Netherlands,6
+Hansweert,0-20000-0-06315,06315,Land (fixed),51.44583333,3.9975,0,Netherlands,6
+Westdorpe,0-20000-0-06319,06319,Land (fixed),51.22472222,3.861111111,1.68,Netherlands,6
+Lichteiland Goeree,0-20000-0-06320,06320,Land (fixed),51.92583333,3.67,0,Netherlands,6
+Euro Platform,0-20000-0-06321,06321,Land (fixed),51.99777778,3.275,0,Netherlands,6
+Wilhelminadorp,0-20000-0-06323,06323,Land (fixed),51.52583333,3.883611111,1.65,Netherlands,6
+Stavenisse,0-20000-0-06324,06324,Land (fixed),51.59555556,4.006111111,0,Netherlands,6
+Hoek van Holland,0-20000-0-06330,06330,Land (fixed),51.99111111,4.121666667,11.86,Netherlands,6
+MAROLLEGAT,0-20000-0-06331,06331,Land (fixed),51.47861111,4.1925,0,Netherlands,6
+Woensdrecht,0-20000-0-06340,06340,Land (fixed),51.44777778,4.341944444,0,Netherlands,6
+Rotterdam Geulhaven,0-20000-0-06343,06343,Land (fixed),51.89194444,4.3125,3.5,Netherlands,6
+Rotterdam,0-20000-0-06344,06344,Land (fixed),51.96055556,4.446944444,0,Netherlands,6
+Cabauw,0-20000-0-06348,06348,Land (fixed),51.96916667,4.925833333,-0.071,Netherlands,6
+Gilze Rijen,0-20000-0-06350,06350,Land (fixed),51.565,4.935277778,0,Netherlands,6
+Herwijnen,0-20000-0-06356,06356,Land (fixed),51.85777778,5.145277778,0.066,Netherlands,6
+Eindhoven,0-20000-0-06370,06370,Land (fixed),51.44972222,5.376944444,0,Netherlands,6
+Volkel,0-20000-0-06375,06375,Land (fixed),51.65861111,5.706666667,0,Netherlands,6
+Ell,0-20000-0-06377,06377,Land (fixed),51.19666667,5.7625,30,Netherlands,6
+Maastricht,0-20000-0-06380,06380,Land (fixed),50.9052778,5.761944444,0,Netherlands,6
+Arcen,0-20000-0-06391,06391,Land (fixed),51.49722222,6.196111111,19.5,Netherlands,6
+Nieuw_Vennep_BTP,0-20000-0-06237,06237,Land (fixed),52.255,4.647777778,-4.8,Netherlands,6
+Muiden_BTP,0-20000-0-06236,06236,Land (fixed),52.33527778,5.092222222,-0.09,Netherlands,6
+Nieuwkoop_BTP,0-20000-0-06238,06238,Land (fixed),52.15138889,4.765,-5.77,Netherlands,6
+Assendelft_BTP,0-20000-0-06233,06233,Land (fixed),52.48194444,4.725833333,-1.6,Netherlands,6
+HOORN-A,0-20000-0-06212,06212,Land (fixed),52.91805556,4.150277778,0,Netherlands,6
+BG-OHVS2,0-20000-0-06214,06214,Land (fixed),54.03694444,6.041666667,0,Netherlands,6
+OOSTERSCHELDE_WP,0-20000-0-06312,06312,Land (fixed),51.76666667,3.621666667,0,Netherlands,6
+OOSTERSCHELDE_4,0-20000-0-06316,06316,Land (fixed),51.65583333,3.693888889,0,Netherlands,6
