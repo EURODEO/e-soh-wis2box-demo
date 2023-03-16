@@ -49,3 +49,46 @@ python3 wis2box-ctl.py logs wis2box-management
 python3 wis2box-ctl.py login
 wis2box metadata station publish-collection
 ```
+
+### Performance
+
+The following tests were done on a MacBook Pro with Apple M1 Pro processor.
+Four cores (out of a total of 10) and 16 GB of memory were assigned to Docker,
+unless otherwise noted.
+
+#### Loading data
+
+We load one month of KNMI data for about 60 stations.
+This consists of 672 (=28x24) BUFR files, one for each observation time.
+Each BUFR files contains multiple messages for the different stations.
+
+We load the data by putting all file in the correct location in the `incoming`
+Minio bucket. The data load takes more than an hour to complete.
+240 MB of space is used by Elastic after loading 11 MB of BUFR files.
+
+If the wis2box-management container (which does the bulk of the work during data load)
+is killed during the load, the loading does not continue when the container is restarted.
+
+#### API load test
+We set up a load test of the Feature API of the wis2box using locust (https://locust.io/).
+Each request ask for a month of data for a single parameter (one of four)
+for a single station (one of seven). The `full` Feature API response is by default
+very verbose (740 KB for a month of data), so we also test a `light` response
+with most metadata left out (167 KB for a month of data).
+`gz` compression is used for all responses.
+
+Each "user" does a new request as soon as the previous request finished.
+Multiple users do parallel requests.
+
+We get the following results:
+
+| cores | users | request type | req/s |
+|------:|------:|--------------|------:|
+|     4 |     1 | full         |    25 | 
+|     4 |    20 | full         |    90 | 
+|     4 |     1 | light        |    30 | 
+|     4 |    20 | light        |   115 | 
+|     8 |     1 | full         |    24 | 
+|     8 |    20 | full         |   140 | 
+|     8 |     1 | light        |    30 | 
+|     8 |    20 | light        |   170 | 
