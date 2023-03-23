@@ -92,3 +92,13 @@ We get the following results:
 |     8 |    20 | full         |   140 | 
 |     8 |     1 | light        |    30 | 
 |     8 |    20 | light        |   170 | 
+
+### Comments
+
+Based on my very limited testing of wis2box, I have the following comments:
+- It is designed in a way to leverage existing technology like Elastic
+- Ingestion of 40K station observations (each with multiple parameters) take one hour on my test setup
+- To allow bulk loading of data, the `WIS2BOX_BROKER_QUEUE_MAX` size needs to be set to unlimited (or a high number). If not, intermediate points will be dropped.
+- Killing and restarting `wis2box-management` container leads to ingestion data loss
+- The internal elastic storage is verbose, due to the Feature JSON format and storing all the messages (needed for Replay funcitonality)
+- Query performance is good for a Python API (due to offloading of heavy lifting to Elastic?)
